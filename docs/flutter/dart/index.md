@@ -9,7 +9,7 @@ or can use Online Dart Pad
 ---
 ### Comment
 create main.dart
-```dart
+```js
 main() {
   print("hello");
 }
