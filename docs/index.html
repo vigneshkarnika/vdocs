@@ -55,18 +55,7 @@
     <script src="./zoom-image.js"></script>
     <script src="./countable.js"></script>
     <script defer lang="javascript">
-      window.$docsify = {
-         // call Prism.highlightAll() in vue hook
-         plugins: [
-            function (hook, vm) {
-               hook.doneEach(function (html) {
-                  Prism.highlightAll()
-                  console.log('mounted,', Prism, Prism.languages.flow)
-               })
-
-            }
-         ]
-      }
+      Prism.highlightAll()
     </script>
   </body>
 </html>
