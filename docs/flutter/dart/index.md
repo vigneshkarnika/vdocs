@@ -4,10 +4,10 @@
 ```bash
 export PATH=$PATH:/Users/vigneshstreamoid/Documents/development/dart-sdk/bin
 ```
+or can use Online Dart Pad
 
-### Dart Pad
 ---
-#### Comment
+### Comment
 create main.dart
 ```dart
 main() {
@@ -26,7 +26,7 @@ dart main.dart
 dart2js --out=output.js main.dart
 ```
 ---
-#### Variables
+### Variables
 ```dart
   void main() {
   var name = "vignesh";
@@ -105,8 +105,8 @@ dart2js --out=output.js main.dart
 
 
 ```
-
-#### functions
+---
+### Functions
 ```dart
 void main() {
   print(printName("Vignesh","Karnika"));
@@ -129,9 +129,8 @@ String getName(String name){
 
 String getSimpleName(String name)=>name;
 ```
-
-#### control statement
-
+---
+### Control Statements
 ```dart
 void main() {
   // as is is!
@@ -146,8 +145,8 @@ void main() {
 }
 
 ```
-
-#### loops
+---
+### Loops
 ```dart
 void main() {
   for(int i=0;i<90;i++){
@@ -183,9 +182,8 @@ void main() {
 }
 
 ```
-
-#### optional postional parameters
-
+---
+#### Optional Positional Arguments
 ```dart
 
 void main() {
@@ -239,8 +237,8 @@ void getNameAge(String firstname,{String lastname,int age,int roll=56}){
 string.isNotEmpty
 string.Contains
 
-
-#### oops
+---
+### Object Oriented Programming
 
 ```dart
 void main() {
@@ -385,8 +383,8 @@ print("products list ${products.toString()}")
 products.shuffle()
 ```
 
-
-#### generics
+---
+### Generics
 
 ```javascript
 main(){
@@ -407,9 +405,8 @@ class Slot<T>{
   }
 }
 ```
-
-
-### mixins
+---
+### Mixins
 Mixins are implicitly defined via ordinary class declarations:
 
 ```javascript
@@ -453,7 +450,7 @@ main(List<String> arguments) {
   // cat.fly(); // Uncommenting this does not compile.
 }
 ```
-
+---
 ### Abstract Classes
 An abstract class is a type of class that cannot be instantiated directly which means an object cannot be created from it.
 An abstract class cannot be instantiated but they can be sub-classed.
@@ -481,7 +478,7 @@ jay.talk();
   jay.walk();
 }
 ```
-
+---
 ### Interfaces
 An interface enforces that a class implements a set list of public fields and methods.
 
