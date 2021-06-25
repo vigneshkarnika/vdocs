@@ -1,12 +1,13 @@
-# dart
+# Dart
 
-download sdk set bin in path variable
+### Setup
 ```bash
 export PATH=$PATH:/Users/vigneshstreamoid/Documents/development/dart-sdk/bin
 ```
 
-### Dart Pad - (HTML , CMD+ENTER)
-
+### Dart Pad
+---
+#### Comment
 create main.dart
 ```dart
 main() {
@@ -24,7 +25,8 @@ main() {
 dart main.dart
 dart2js --out=output.js main.dart
 ```
-#### variables
+---
+#### Variables
 ```dart
   void main() {
   var name = "vignesh";
