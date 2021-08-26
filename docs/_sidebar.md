@@ -1,7 +1,10 @@
 * [About me](/)
-* [PYTHON](/python/index)
+* [OPENCV](/opencv/intro.md)
+    * [Basics](/opencv/basics.md)
+* [PYTHON](/python/index.md)
     * [DSCrash](/python/dscrash.md)
-   
+    * [Numpy](/python/numpy.md)
+    * [Pandas](/python/pandas.md)
 * [blender](/blender/index)
     * [Interface](/blender/interface.md)
     * [Editors](/blender/Editors.md)
