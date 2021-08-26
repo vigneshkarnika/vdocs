@@ -1,6 +1,5 @@
 * [About me](/)
 * [blender](/blender/index)
-    * [Interface](/blender/interface)
-    * [Editors](/blender/Editors)
+    * [Interface](/blender/interface.md)
+    * [Editors](/blender/Editors.md)
     * [Working With Blender](/blender/WorkingWithBlender)
-    * 
