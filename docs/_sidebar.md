@@ -5,6 +5,7 @@
     * [DSCrash](/python/dscrash.md)
     * [Numpy](/python/numpy.md)
     * [Pandas](/python/pandas.md)
+    * [DataStructures](/python/datastructures.md)
 * [blender](/blender/index)
     * [Interface](/blender/interface.md)
     * [Editors](/blender/Editors.md)
